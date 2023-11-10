@@ -3,26 +3,28 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:title="Favorite"
-        android:icon="@drawable/baseline_favorite"
-        app:showAsAction=""
-        android:id="@+id/mFav"/>
-
-    <item
-        android:title="Music"
+        android:id="@+id/mMusic"
         android:icon="@drawable/baseline_music_note"
-        app:showAsAction=""
-        android:id="@+id/mMusic"/>
+        android:title="Music"
+        app:showAsAction="ifRoom" />
 
     <item
-        android:title="Share"
-        android:icon="@drawable/baseline_share"
-        android:id="@+id/mShare"
-        app:showAsAction="always"/>
+        android:id="@+id/mFav"
+        android:icon="@drawable/baseline_favorite"
+        android:title="Favorite"
+        app:showAsAction="always" />
 
     <item
-        android:title="Bag"
-        android:icon="@drawable/baseline_shopping_bag"
         android:id="@+id/mBag"
-        app:showAsAction="ifRoom"/>
+        android:icon="@drawable/baseline_shopping_bag"
+        android:title="Bag"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mShare"
+        android:icon="@drawable/baseline_share"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+
+
 </menu>
